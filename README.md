@@ -10,9 +10,14 @@ This project is a User Authentication and Authorization API built with Node.js, 
 - JSON Web Tokens (JWT)
 - Postman (for API testing)
 
+deployed Url:-https://user-authentication-api-2cw9.onrender.com/    
+To Register->https://user-authentication-api-2cw9.onrender.com/api/auth/register
+To Login ->https://user-authentication-api-2cw9.onrender.com/api/auth/login
+To Get your information->https://user-authentication-api-2cw9.onrender.com/api/auth/me
+
 1. Register User->POST 
 Registers a new user.
-http://localhost:5000/api/auth/register
+http://localhost:5000/api/auth/register if someone else is testing it please use https://user-authentication-api-2cw9.onrender.com/api/auth/register
 
 {
   "username": "exampleUser",
@@ -35,7 +40,7 @@ Response:
 
 2.Login User->post
  Authenticates the user and returns a JWT.
-http://localhost:5000/api/auth/login
+http://localhost:5000/api/auth/login if someone else is testing it please use https://user-authentication-api-2cw9.onrender.com/api/auth/login
 {
   "email": "user@example.com",
   "password": "yourpassword"
@@ -53,7 +58,7 @@ Error:
 
 3. Get User Information->GET
 Retrieves the logged-in user's information.
-http://localhost:5000/api/auth/me
+http://localhost:5000/api/auth/me if someone else is testing it please use https://user-authentication-api-2cw9.onrender.com/api/auth/me
 Headers:
 Authorization: Bearer <your_jwt_token>
 Response:
