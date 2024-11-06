@@ -1,4 +1,5 @@
 # User Authentication and Authorization API
+USE CODE VIEW FOR BETTER USER EXPERIENCE INSTEAD OF PREVIEW OPTION.
 
 ## Description
 This project is a User Authentication and Authorization API built with Node.js, Express.js, Mongoose, and JSON Web Tokens (JWT). The API provides endpoints for user registration, login, and retrieval of user information using Bearer tokens for authentication.
